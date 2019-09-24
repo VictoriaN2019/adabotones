@@ -1,0 +1,22 @@
+.background { height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+#trigger: {display: none;}
+
+.unchecked {background-image: url('https://files.slack.com/files-pri/T638A9WSY-FNMQ7DQHW/checkbox.png');
+    display: inline-block;
+    background-position: -17px;
+    background-size: 401%;
+}
+.hover {background-image: url('https://files.slack.com/files-pri/T638A9WSY-FNMQ7DQHW/checkbox.png');
+        display: inline-block;
+        background-position: 124px;
+        background-size: 401%;
+}
+.checked {background-image: url('https://files.slack.com/files-pri/T638A9WSY-FNMQ7DQHW/checkbox.png');
+            display: inline-block;
+            background-position: 65px;
+            background-size: 401%;
+}
+#trigger:unchecked + .checked {background-position: right center;}
